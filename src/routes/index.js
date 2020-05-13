@@ -1,6 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "@/views/Home";
+import Search from "@/views/Search";
+
 Vue.use(VueRouter);
 
 const router = new VueRouter({
@@ -8,6 +10,9 @@ const router = new VueRouter({
     routes: [{
         path: "/",
         component: Home
+    }, {
+        path: "/search",
+        component: Search
     }]
 });
 
