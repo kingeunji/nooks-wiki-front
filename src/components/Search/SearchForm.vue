@@ -75,19 +75,6 @@ export default {
 
 <style lang="scss" scoped>
 .search-form {
-  width: 900px;
-  height: 400px;
-
-  border-radius: 6px;
-  position: relative;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-
-  display: flex;
-  flex-direction: column;
-
-  padding: 16px;
   .table {
     border: 1px solid #495057;
     .row {

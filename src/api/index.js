@@ -5,7 +5,7 @@ import {
 
 function createInstance() {
     const instance = axios.create({
-        baseURL: "",
+        baseURL: "http://15.164.205.82:8088/v1/",
     });
     return setInterceptors(instance);
 }
