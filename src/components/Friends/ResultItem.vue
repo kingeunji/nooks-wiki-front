@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <div class="detail">
+    <div class="detail" @click="goDetail(friend.idx)">
       <div class="detail-text">
         <p class="username">{{ friend.species }}</p>
         <h3>{{ friend.name }}</h3>
@@ -16,7 +16,11 @@
 <script>
 export default {
   props: ["friend"],
-  methods: {}
+  methods: {
+    goDetail(idx) {
+      this.$router.push(`/friend/${idx}`);
+    }
+  }
 };
 </script>
 

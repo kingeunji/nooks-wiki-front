@@ -15,7 +15,7 @@ const router = new VueRouter({
         path: "/friends/search",
         component: FriendSearch
     }, {
-        path: "/friends/detail",
+        path: "/friend/:id",
         component: FriendDetail
     }]
 });
