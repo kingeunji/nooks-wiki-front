@@ -7,10 +7,7 @@
         <p class="body">{{ friend.motto }}</p>
       </div>
       <div class="detail-img">
-        <img
-          src="https://images.mypetlife.co.kr/content/uploads/2020/03/29170918/6e2169ee0c893650ae2e9460f5cb1a1d21d1c0211d15f06716793ebed1cd82251a1ccfff20848faa68778375e3f52caf4e1228dab914198b7b06bb208a6b4d52bb81974b0fa0571d533757cce4757973267fd2701c8234a21d5669ee71662348.png"
-          alt="noticeimg"
-        />
+        <img :src="'http://15.164.205.82:8088/contents/download/' + friend.imgIdx" alt="noticeimg" />
       </div>
     </div>
   </div>

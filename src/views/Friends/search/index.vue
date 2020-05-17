@@ -12,8 +12,8 @@
 
 <script>
 import { friends } from "@/api/friends";
-import SearchForm from "@/components/Search/SearchForm";
-import ResultItem from "@/components/Search/ResultItem";
+import SearchForm from "@/components/Friends/SearchForm";
+import ResultItem from "@/components/Friends/ResultItem";
 
 export default {
   components: { SearchForm, ResultItem },

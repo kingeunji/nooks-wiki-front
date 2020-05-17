@@ -1,7 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "@/views/Home";
-import Search from "@/views/Search";
+import FriendSearch from "@/views/Friends/search";
+import FriendDetail from "@/views/Friends/detail";
 
 Vue.use(VueRouter);
 
@@ -11,8 +12,11 @@ const router = new VueRouter({
         path: "/",
         component: Home
     }, {
-        path: "/search",
-        component: Search
+        path: "/friends/search",
+        component: FriendSearch
+    }, {
+        path: "/friends/detail",
+        component: FriendDetail
     }]
 });
 
